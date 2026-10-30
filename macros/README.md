@@ -13,9 +13,8 @@ Comprehensive macros for all 9 classes on the **WoW: Forever** server (Classic-e
 > - **12-Advanced-QoL.md** — hybrid buttons, priority chains, swap tricks (class-agnostic)
 > - **13-Class-Extras.md** — second-layer per-class macros, each with a "why" note
 > - **14-Raiding.md** — raid macros: leader tools, tank swaps, cooldown stacking, raid-duty macros
-> - **15-Druid-Raid-and-Advanced.md** — advanced druid macros (Rake/Pounce/Lacerate/Primal Bite) with "why" notes
-> - **16-Warrior-Stance-Weapon.md** — stance-dance + weapon-swap warrior pack (Charge/Intercept dance, Overpower dance, Execute big-weapon swap, tank panic button)
 > - Every macro is verified against Forever's ability lists — no addons required, pure `/macro` commands
+> - **Note:** the advanced druid pack (raid feral/tank/resto/balance) is merged into **10-Druid.md**; the warrior stance-dance + weapon-swap pack is merged into **02-Warrior.md**
 
 ---
 

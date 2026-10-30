@@ -15,11 +15,17 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 /cast Lightning Bolt
 ```
 
+> [!tip] Why it's valuable
+> Saves a keybind while keeping your main nuke visible on the action bar with cooldown and range info.
+
 ### Chain Lightning (AoE)
 ```lua
 #showtooltip
 /cast Chain Lightning
 ```
+
+> [!tip] Why it's valuable
+> A single button for your primary AoE nuke — saves keybind space while keeping cooldown tracking on your bar.
 
 ### Lava Burst (instant nuke — talent)
 ```lua
@@ -27,11 +33,17 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 /cast Lava Burst
 ```
 
+> [!tip] Why it's valuable
+> Instant-cast burst on one button — press for an immediate damage spike when Lava Burst is talented.
+
 ### Flame Shock (DoT)
 ```lua
 #showtooltip
 /cast [@mouseover,harm,nodead][harm] Flame Shock
 ```
+
+> [!tip] Why it's valuable
+> Mouseover-first targeting means you never lose your current target when applying the DoT — critical for keeping Flame Shock up during multi-target fights.
 
 ### Frost Shock (slow)
 ```lua
@@ -39,11 +51,17 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 /cast [@mouseover,harm,nodead][harm] Frost Shock
 ```
 
+> [!tip] Why it's valuable
+> Mouseover targeting lets you slow a secondary target without switching from your main kill target, saving a reaction tick while kiting.
+
 ### Earth Shock (interrupt)
 ```lua
 #showtooltip
 /cast [@focus,harm,nodead][@mouseover,harm,nodead][] Earth Shock
 ```
+
+> [!tip] Why it's valuable
+> Priority targeting (focus → mouseover → current) lets you interrupt the right caster instantly without retargeting — a lifesaver in chaotic pulls.
 
 ### Elemental Mastery (burst — talent)
 ```lua
@@ -51,6 +69,9 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 /cast Elemental Mastery
 ```
 *(Talent-gated (Elemental tree). Guarantees a crit on your next spell — the classic Shaman burst button. No Thunderstorm in 1.60.1.)*
+
+> [!tip] Why it's valuable
+> One press guarantees a crit on your next nuke. This macro keeps the ability visible so you never forget it’s ready during a burn phase.
 
 ---
 
@@ -63,6 +84,9 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 /startattack
 ```
 
+> [!tip] Why it's valuable
+> Combining /cast Stormstrike with /startattack saves a GCD — the auto-attack starts instantly instead of waiting for your next swing.
+
 ### Frostbrand Weapon (off-hand frost buff)
 ```lua
 #showtooltip
@@ -71,11 +95,17 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 ```
 *(Frost damage weapon enchant for the off-hand — the classic alternative to the removed Lava Lash. `/use 17` = off-hand weapon slot, correct.)*
 
+> [!tip] Why it's valuable
+> Bakes the off-hand weapon slot (/use 17) into one button so you never enchant the wrong hand — saves a fumbled click in your rotation.
+
 ### Earthbind Totem (slow kiting)
 ```lua
 #showtooltip
 /cast Earthbind Totem
 ```
+
+> [!tip] Why it's valuable
+> Drops a slow totem without switching targets, preserving your offensive momentum while keeping the kiter at range.
 
 ### Windfury Weapon (main-hand buff)
 ```lua
@@ -85,6 +115,9 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 ```
 *(`/use 16` = main-hand weapon slot, correct.)*
 
+> [!tip] Why it's valuable
+> Enchants the main hand and applies Windfury in one press — eliminates the two-step hassle and ensures you hit the right slot during pre-pull.
+
 ### Flametongue Weapon (off-hand buff)
 ```lua
 #showtooltip
@@ -92,12 +125,18 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 /use 17
 ```
 
+> [!tip] Why it's valuable
+> Single-button off-hand enchant for Flametongue — removes the slot-fumbling step so you rebuff faster between pulls.
+
 ### Rockbiter Weapon (threat/AP buff)
 ```lua
 #showtooltip
 /cast Rockbiter Weapon
 /use 16
 ```
+
+> [!tip] Why it's valuable
+> Weapon enchant and main-hand slot in one press — speeds up your pre-pull ritual and prevents misclicks on the wrong weapon slot.
 
 ---
 
@@ -109,11 +148,17 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 /cast [@mouseover,help,nodead][@player] Chain Heal
 ```
 
+> [!tip] Why it's valuable
+> Mouseover priority means you heal the raid frame you’re hovering without losing your current target — the difference between saving and losing a tank.
+
 ### Healing Wave (big heal)
 ```lua
 #showtooltip
 /cast [@mouseover,help,nodead][@player] Healing Wave
 ```
+
+> [!tip] Why it's valuable
+> Cast on mouseover or self-cast fallback eliminates target-switching delay — every fraction of a second counts when the tank is dipping.
 
 ### Lesser Healing Wave (fast heal)
 ```lua
@@ -121,11 +166,17 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 /cast [@mouseover,help,nodead][@player] Lesser Healing Wave
 ```
 
+> [!tip] Why it's valuable
+> A fast, cheap heal with mouseover priority — press the moment damage lands without wasting a GCD on target swapping.
+
 ### Riptide (HoT + heal — talent)
 ```lua
 #showtooltip
 /cast [@mouseover,help,nodead][@player] Riptide
 ```
+
+> [!tip] Why it's valuable
+> Mouseover-driven HoT application — pre-hotting the tank between pulls is one hover and a press, no retargeting needed.
 
 ### Water Shield (mana regen self — talent)
 ```lua
@@ -134,17 +185,26 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 ```
 *(Talent-gated (Restoration tree). The classic shield that returns mana on hit — Earth Shield does not exist in 1.60.1.)*
 
+> [!tip] Why it's valuable
+> Forces self-cast with [@player] so you never accidentally lose the shield on someone else — critical for mana sustain during long boss fights.
+
 ### Healing Stream Totem (party HoT)
 ```lua
 #showtooltip
 /cast Healing Stream Totem
 ```
 
+> [!tip] Why it's valuable
+> A one-button party HoT totem with no target requirement — press and forget, the totem handles the healing spread.
+
 ### Mana Spring Totem (mana regen)
 ```lua
 #showtooltip
 /cast Mana Spring Totem
 ```
+
+> [!tip] Why it's valuable
+> Drops a sustained mana-regen totem in one keypress — essential for keeping your party’s mana pool healthy across long trash pulls.
 
 ---
 
@@ -156,6 +216,9 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 /cast [@mouseover,harm,nodead][@focus,harm,nodead][] Purge
 ```
 
+> [!tip] Why it's valuable
+> Mouseover → focus → target priority means you can peel a dangerous enemy buff without ever swapping off the boss — a huge reaction-time saver.
+
 ### Cure Poison / Disease (mouseover)
 ```lua
 #showtooltip
@@ -164,11 +227,17 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 ```
 *(Classic's friendly dispels — no Cleanse Spirit in 1.60.1.)*
 
+> [!tip] Why it's valuable
+> Two dispels stacked on one key — mouseover heals the friendly you’re hovering, self-casts if no target is valid. Saves a crucial action bar slot.
+
 ### Ghost Wolf (travel)
 ```lua
 #showtooltip
 /cast Ghost Wolf
 ```
+
+> [!tip] Why it's valuable
+> A dedicated travel-form button — one press to shift into Ghost Wolf without scrolling through your shapeshift bar.
 
 ### Water Walking (toggle)
 ```lua
@@ -176,17 +245,26 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 /cast Water Walking
 ```
 
+> [!tip] Why it's valuable
+> Single-button water walking toggle — saves clicking the spell book when you hit a water crossing.
+
 ### Far Sight (scout)
 ```lua
 #showtooltip
 /cast Far Sight
 ```
 
+> [!tip] Why it's valuable
+> One-press scouting ability — no target, no conditions, just press to extend your view into the next pull.
+
 ### Reincarnation (self-rez, once per 30m)
 ```lua
 #showtooltip
 /cast Reincarnation
 ```
+
+> [!tip] Why it's valuable
+> A bare /cast macro for your self-rez — one press when you’re down and the 30-minute cooldown is ready.
 
 ### Mana Tide Totem (raid mana — talent)
 ```lua
@@ -202,12 +280,18 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 /cast Tremor Totem
 ```
 
+> [!tip] Why it's valuable
+> A one-button fear-break totem — drop it preemptively before a feared pull or reactively when the pack turns to run.
+
 ### Grounding Totem (spell absorb)
 ```lua
 #showtooltip
 /cast Grounding Totem
 ```
 *(No Fire Elemental Totem in 1.60.1 — Searing/Magma Totem are your only fire totems.)*
+
+> [!tip] Why it's valuable
+> One button drops your spell-absorb totem — essential for caster-heavy packs where you need to nullify the first incoming nuke.
 
 ---
 
@@ -220,12 +304,18 @@ Totem dropping, weapon enchant upkeep, purge/interrupt, and the classic Chain He
 ```
 *(One button cycles through all four totem slots — replace totems with your spec's picks. Grace of Air Totem is the classic air totem — Wrath of Air Totem doesn't exist in 1.60.1.)*
 
+> [!tip] Why it's valuable
+> A /castsequence totem-dropper cycles through all four totem slots in one key — saves three action bar slots and sets up your full totem array in four GCDs.
+
 ### Single-Button Storm Totem (context)
 ```lua
 #showtooltip
 /cast [mod:shift] Earthbind Totem; [mod:ctrl] Tremor Totem; [mod:alt] Grounding Totem; Searing Totem
 ```
 *(Shift=slow, Ctrl=fear-break, Alt=spell-absorb, default=damage)*
+
+> [!tip] Why it's valuable
+> Modifier keys (Shift/Ctrl/Alt) pack four totems into one button — slow, fear-break, spell-absorb, or damage at a single modifier press without hunting through your bars.
 
 ---
 

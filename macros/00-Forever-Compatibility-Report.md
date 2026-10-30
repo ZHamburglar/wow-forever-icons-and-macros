@@ -56,8 +56,9 @@
 ## 3. Verification method
 
 - Parsed all 9 per-class Forever ability+talent tables from Warcraft Wiki → `/home/burgeragentpc/wow-macros/forever_ground_truth.json`
-- Ran a spell-name audit script over every `/cast` line in all 15 files
+- Ran a spell-name audit script over every `/cast` line in all 13 files
 - Classified: OK / TALENT (works if talented — noted in the macro) / RENAMED (fixed) / DEAD (removed)
+- **Consolidation (2026-10-29):** the standalone druid expansion and warrior stance/weapon packs were merged into `10-Druid.md` and `02-Warrior.md` respectively — one file per class, everything verified after the merge (0 dead spells)
 - Cross-class files (01, 12, 14) checked against the union of all ability+talent lists
 
 ## 4. Remaining caveats (honest)
